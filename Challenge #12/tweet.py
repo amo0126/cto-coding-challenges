@@ -8,11 +8,9 @@ import sys
 
 # The consumer keys can be found on your application's Details
 # page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key="75hERU9O3CIr5fdgR5SwV6G1X"
-consumer_secret="uvDRKUc9EvBtXdF3f68r7BKUCTpgxIsuLqRgFUFyAUTlM3arwJ"
 
-#consumer_key= input("Input consumer key: ")
-#consumer_secret=input("Input consumer secret key: ")
+consumer_key= input("Input consumer key: ")
+consumer_secret=input("Input consumer secret key: ")
 
 # The access tokens can be found on your applications's Details
 # page located at https://dev.twitter.com/apps (located
@@ -21,11 +19,9 @@ consumer_secret="uvDRKUc9EvBtXdF3f68r7BKUCTpgxIsuLqRgFUFyAUTlM3arwJ"
 # The access tokens can be found on your applications's Details
 # page located at https://dev.twitter.com/apps (located
 # under "Your access token")
-access_token="2855963097-oxctThOVMt57hc5tyQGULIcxWAmPZrxfzoAOHml"
-access_token_secret="hfyY6xh6lpIojiro35vy5NzQnfUPwMAhk89tqMCKSXJ3J"
 
-#access_token= input("Input access token: ")
-#access_token_secret= input("Input access token secret: ")
+access_token= input("Input access token: ")
+access_token_secret= input("Input access token secret: ")
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
